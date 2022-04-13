@@ -10,7 +10,7 @@ db = client["starwars"]
 #emptied the previous data in the database
 db.starships.drop()
 
-#created a function, method to get updated id
+#created a function to get updated id
 def get_id(st):
     lurls = st['pilots']
     pilots_name = []
